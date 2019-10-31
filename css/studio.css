@@ -20,16 +20,41 @@
 .logo {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3%;
+  margin-top: 5%;
   padding: 50px;
 }
 
 h1 {
-  padding: 2%;
+  margin-top: 2%;
+  padding: 1%;
 }
 
 .click {
+  /* margin-top: %; */
   margin-left: auto;
   margin-right: auto;
-  padding: 1%;
+  padding: 2%;
+}
+
+
+/*********** #About ***********/
+/********************************/
+
+#about {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#about > h2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about > p {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 26px;
+  width: 90%;
 }
