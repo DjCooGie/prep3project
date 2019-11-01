@@ -53,6 +53,7 @@ h1 {
 }
 
 #about > h2 {
+  margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -83,9 +84,51 @@ h1 {
   margin-left: auto;
 }
 
-#services > p {
+#services  p {
   margin-top: 1%;
   margin-right: auto;
   margin-left: auto;
   font-size: 25px;
 }
+
+
+/*********** #WhatWeDo ***********/
+/********************************/
+
+.do {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+#wdo {
+  text-align: center;
+}
+
+#wdo p {
+  display: none;
+  cursor: pointer;
+}
+
+#wdo img:hover {
+  cursor: pointer;
+}
+
+.col-md-4 img{
+  padding: 50px;
+  image-orientation: center;
+}
+
+
+
+
+
+
+
+
+/*********** #Portfolio ***********/
+/********************************/
+
+
+
