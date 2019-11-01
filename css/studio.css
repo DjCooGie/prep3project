@@ -47,8 +47,6 @@ h1 {
 
 #about {
   margin-top: 2%;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -86,8 +84,6 @@ h1 {
 
 #services  p {
   margin-top: 1%;
-  margin-right: auto;
-  margin-left: auto;
   font-size: 25px;
 }
 
@@ -97,7 +93,6 @@ h1 {
 
 .do {
   margin-top: 5%;
-  margin-bottom: 5%;
   width: 100%;
   text-align: center;
 }
@@ -117,7 +112,6 @@ h1 {
 
 .col-md-4 img{
   padding: 50px;
-  image-orientation: center;
 }
 
 
@@ -130,5 +124,13 @@ h1 {
 /*********** #Portfolio ***********/
 /********************************/
 
+.port {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#port {
+  margin-top: 3%;
+}
 
 
