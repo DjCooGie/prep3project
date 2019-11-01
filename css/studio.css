@@ -116,13 +116,8 @@ h1 {
 
 
 
-
-
-
-
-
 /*********** #Portfolio ***********/
-/********************************/
+/*********************************/
 
 .port {
   text-align: center;
@@ -131,6 +126,95 @@ h1 {
 
 #port {
   margin-top: 3%;
+}
+
+
+
+/*********** #Contact ***********/
+/*******************************/
+
+
+.conts {
+  background-image: url("../media/backgrounds/c_image.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 3%;
+  text-align: center;
+}
+
+
+.form h3 {
+  color: #fff;
+}
+
+
+.form input{
+  color: #fff;
+  padding: 1%;
+  font-size: 18px;
+  margin-top: 1%;
+  border-radius: 0.2rem;
+  text-align: left;
+  width: 25%;
+  background-color: transparent;
+}
+
+#name, #email {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#name,::placeholder {
+  color: #fff;
+}
+
+#email ::placeholder {
+  color: #fff;
+}
+
+#name {
+  float: left;
+  margin-left: 7%;
+}
+
+#email{
+  font-style: italic;
+  float: right;
+  margin-right: 15%;
+}
+
+.form textarea {
+  color: #fff;
+  font-size: 20px;
+  padding: 1%;
+  margin-top: 5%;
+  width: 50%;
+  background-color: transparent;
+}
+
+
+#sms {
+  margin-left: 3%;
+  height: 200px;
+  width: 80%;
+  border-radius: 0.5rem;
+}
+
+.form #submit {
+  background-color: transparent;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  float: right;
+  margin-top: 10%;
+  margin-right: 3%;
+  padding: 0.9%;
+  border-radius: 0.2rem;
+}
+
+.form #submit:hover {
+  background-color: sandybrown;
+  color: black;
 }
 
 
