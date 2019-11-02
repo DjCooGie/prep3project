@@ -1,3 +1,40 @@
+// form validation
+
+function validateForm() {
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("sms").value;
+
+  if (name == "" && email == "" && message == "") {
+    alert("Kindly write your name, email and add your message!");
+    return false;
+  }
+  
+  else if (name == "") {
+    alert("Kindly write your name")
+    return false;
+  }
+  
+  else if (email == "") {
+    alert("Kindly write your email address!");
+    return false;
+  }
+  
+  else if (message == "") {
+    alert("Kindly add your message!")
+    return false;
+  }
+ 
+  else {
+    alert(name + ", your message has been received successfully. Thank you.");
+  }
+
+};
+
+
+
+
+
 $(document).ready(function () {
   
   $("#des").click(function () {
@@ -13,27 +50,13 @@ $(document).ready(function () {
   $("#pmg").click(function () {
     $("#pmg p").toggle();
     $("#pmg img").toggle();
+
+
+    $("#5p").click(function () {
+      $("#5p #Hp5").toggle();
+    });
   });
 
-
-
-
-
-  // form function
-
-  // $(".form").submit(function (e) {
-  //   let name = document.getElementById("name");
-  //   let email = document.getElementById("email");
-  //   let message = document.getElementById("sms");
-    
-  //   if (!name.value || !email.value || !message.value) {
-  //     alert("Kindly check your entries")
-  //   } else {
-  //     e.preventDefault()
-  //     $(this).get(0).reset()
-  //     alert("Thank you! Your message has been received.")
-  //   }
-  // });
 
 
 });
