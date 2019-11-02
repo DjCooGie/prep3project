@@ -1,8 +1,10 @@
-## Author
-Evans Nyambane
+# _Delani Studio Website_
 
-### Description
-Delani Studio is business group of fluent and proffessional software engineers who design and develop mobile and web softwares for clients and collaborators. 
+This is a `clone` of *Delani Studio Website*. **Delani Studio** is a business group of proffessional software engineers who design and develop mobile and web softwares for clients and collaborators.
+
+## Author
+**Evans Nyambane** 
+ 
 
 ### Delani Studio
 ![Delani website]()
