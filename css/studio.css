@@ -130,6 +130,9 @@ h1 {
 
 #port img {
   cursor: pointer;
+  image-orientation: center;
+  position: relative;
+  margin-left: 10%;
 }
 
 #port h3 {
