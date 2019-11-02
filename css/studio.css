@@ -230,3 +230,12 @@ ul li {
   display: inline-block;
 }
 
+
+/*********** #Footer ***********/
+/*******************************/
+
+footer {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
