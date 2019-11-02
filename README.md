@@ -7,7 +7,7 @@ This is a `clone` of *Delani Studio Website*. **Delani Studio** is a business gr
  
 
 ### Delani Studio
-![Delani website]()
+![Delani website](media/Dstudio.jpg)
 
 ### Setup and installation requirements
 - ` `
