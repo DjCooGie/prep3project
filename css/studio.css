@@ -205,9 +205,9 @@ h1 {
   font-size: 20px;
   color: #fff;
   display: block;
-  float: right;
-  margin-top: 10%;
-  margin-right: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:2%;
   padding: 0.9%;
   border-radius: 0.2rem;
 }
@@ -217,4 +217,16 @@ h1 {
   color: black;
 }
 
+
+
+/*********** #Social ***********/
+/*******************************/
+
+ul {
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+}
 
