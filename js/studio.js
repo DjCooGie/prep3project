@@ -9,14 +9,16 @@ function validateForm() {
     alert("Kindly write your name, email and add your message!");
     return false;
   }
-  
-  else if (name == "") {
+
+  else if (name == "" || name == null) {
     alert("Kindly write your name")
     return false;
   }
   
-  else if (email == "") {
-    alert("Kindly write your email address!");
+  let atposition = email.indexOf("@");
+  let dotposition = email.lastIndexOf(".");
+  if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
+    alert("Kindly enter a valid e-mail address " + atposition + "" + dotposition);
     return false;
   }
   
@@ -33,10 +35,10 @@ function validateForm() {
 
 
 
-
-
 $(document).ready(function () {
   
+  // what we do popup text
+
   $("#des").click(function () {
     $("#des p").toggle();
     $("#des img").toggle();
@@ -50,13 +52,47 @@ $(document).ready(function () {
   $("#pmg").click(function () {
     $("#pmg p").toggle();
     $("#pmg img").toggle();
-
-
-    $("#5p").click(function () {
-      $("#5p #Hp5").toggle();
-    });
   });
 
+    // portfolio titles
 
+  $('#hp1').hover(function () {
+    $('#topk').fadeToggle(500);
+  });
+
+  $('#hp2').hover(function () {
+    $('#topk1').fadeToggle(500);
+  });
+
+  $('#hp3').hover(function () {
+    $('#topk2').fadeToggle(500);
+  });
+
+  $('#hp4').hover(function () {
+    $('#topk3').fadeToggle(500);
+  });
+
+  $('#hp5').hover(function () {
+    $('#topk4').fadeToggle(500);
+  });
+
+  $('#hp6').hover(function () {
+    $('#topk5').fadeToggle(500);
+  });
+
+  $('#hp7').hover(function () {
+    $('#topk6').fadeToggle(500);
+  });
+
+  $('#hp8').hover(function () {
+    $('#topk7').fadeToggle(500);
+  });
 
 });
+
+
+
+
+
+
+
