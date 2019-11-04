@@ -143,6 +143,7 @@ h1 {
   image-orientation: center;
   position: relative;
   margin-left: 10%;
+  width: 95%;
 }
 
 h5{
@@ -248,16 +249,15 @@ h5{
 /*********** #Social ***********/
 /*******************************/
 
-ul {
-  display: flex;
-  margin-top: 2%;
-  margin-left: 22%;
-  
+#social {
+  margin: auto;
+  margin-top: 3%;
+  width: 60%;
 }
+#social img{
+ margin-left: auto;
+ margin-right: auto;
 
-ul li {
-  display: inline-block;
-  margin-left: 2%;
 }
 
 
