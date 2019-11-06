@@ -147,9 +147,18 @@ h1 {
 }
 
 h5{
+  position: absolute;
+  z-index: 1;
   display: none;
-  padding: 5%;
+  margin-top: 19%;
+  margin-left: 25%;
   text-align: center;
+  border: 1px transparent;
+  border-radius: 0.2rem;
+  background-color: grey;
+  color: black;
+  padding: 10%;
+  font-size: 20px;
 }
 
 
